@@ -1,0 +1,97 @@
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/template/modern-business)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  padding-top: 56px;
+}
+
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center 20%;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+  max-width: 300px;
+}
+
+.portfolio-item .card-img-top {
+  max-height: 397px;
+}
+
+.search-poster {
+  height: 200px;
+  min-width: 128px;
+}
+
+.poster-col {
+  flex: 0 0 170px;
+} 
+
+.toast {
+  z-index: 2;
+}
+
+/* flex MAGIC */
+.container {
+  flex: 1 0 auto;
+}
+
+.profile-col {
+  flex: 0 0 250px;
+} 
+
+.tech .card-img-top{
+  height: 268px;
+  width: 268px;
+  object-fit: contain;
+}
+
+.popcorn-icon {
+  object-fit: contain;
+  height: 30px;
+}
+
+.carousel-control-prev , .carousel-control-next {
+  background-color: rgba(52, 58, 64, 0);
+}
+
+.carousel-control-prev:hover , .carousel-control-next:hover, .carousel-caption {
+  background-color: rgba(52, 58, 64, .6);
+  transition: background-color 300ms ease-in;
+}
+
+.carousel-caption {
+  width: 500px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+  .carousel-caption {
+    width: 100%;
+    margin: 0%;
+    left: 0;
+    right: 0;
+  }
+  .carousel-caption h3 {
+    font-size: 1.25rem;
+  }
+}
+
+.filter-btn .dropdown-menu {
+  min-width: 0;
+  padding: 5px;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
